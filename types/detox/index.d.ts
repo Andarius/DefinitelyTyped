@@ -7,7 +7,7 @@
 //                 Max Komarychev <https://github.com/maxkomarychev>
 //                 Dor Ben Baruch <https://github.com/Dor256>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
-declare global {
+declare module 'detox' {
     const device: Detox.Device;
     const detox: Detox.Detox;
     const element: Detox.Element;
@@ -622,7 +622,3 @@ declare global {
         }
     }
 }
-
-declare const detoxExport: Detox.DetoxExport;
-
-export = detoxExport;
